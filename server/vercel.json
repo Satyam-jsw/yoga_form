@@ -1,10 +1,10 @@
 {
     "version": 2,
-    "name": "bitcode",
+    "name": "yoga-form",
     "builds": [
-       { "src": "index.js", "use": "@vercel/node" }
+       { "src": "app.js", "use": "@vercel/node" }
     ],
     "routes": [
-       { "src": "/(.*)", "dest": "/index.js" }
+       { "src": "/(.*)", "dest": "/app.js" }
     ]
  }
