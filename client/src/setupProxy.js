@@ -4,7 +4,7 @@ module.exports = function (app) {
     app.use(
         '/enroll',
         createProxyMiddleware({
-            target: 'https://yoga-form-9ncx-f2ayeacpf-satyamjsw.vercel.app/',
+            target: 'https://yoga-form-9ncx.vercel.app',
             changeOrigin: true,
         })
     );
