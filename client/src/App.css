@@ -24,10 +24,6 @@ body {
     align-items: stretch; 
 }
 
-/* label {
-    margin: 10px auto;
-} */
-
 input,
 select {
     width: 100%;

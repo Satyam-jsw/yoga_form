@@ -3,11 +3,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ThankYouContainer = styled.div`
-  background-color: #f0f0f0; /* Set background color */
+  background-color: #f0f0f0; 
   padding: 20px;
   border-radius: 8px;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 100px auto;
+  justify-content:center;
   text-align: center;
 `;
 
