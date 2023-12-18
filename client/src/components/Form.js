@@ -26,7 +26,7 @@ const EnrollmentForm = () => {
 
   const handleEnrollment = async () => {
     try {
-      const response = await fetch('/enroll', {
+      const response = await fetch('https://yoga-form-9ncx.vercel.app/enroll', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
