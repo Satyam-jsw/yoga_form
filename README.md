@@ -4,6 +4,11 @@
 
 ![IMG2](https://github.com/Satyam-jsw/yoga_form/assets/96405804/a88d4ec8-45eb-450f-a440-2bd2749924e6)
 
+# ER-Diagram of the Project
+![Screenshot 2023-12-19 122911](https://github.com/Satyam-jsw/yoga_form/assets/96405804/a36ba63e-4418-453b-b28f-a6093be8be51)
+
+
+
 ## Hello, I have created project using the MERN STACK PROJECT (YOGA FORM).
 
 - This Project includes following Functionality:-
