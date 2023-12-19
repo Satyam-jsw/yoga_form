@@ -18,6 +18,18 @@
 month (all these things are stored in database only updated when user change it's batches).
 5. Here, show a "ThankYou Page"  message when the user is registered (I can also integrate a Payment Gateway Page when user enrolled).
 
+## Approach
+1. When user enrolled, to fill all the fields (like name, age, gender, phone, fee, Batchs), if not any field by user ,when user hit the button it's show a pop to fill all the boxes. and also check all validation of fee (Only 500rs), age (age limit of 18-65), phone(consist 10-digit).
+2. if user enrolled then all records of user are stored in database(Mongodb).
+3. Here, i have maked a phone number as unique key.
+4. At time of storing data we stored the subscriptionStart and subscriptionEnd date also and it's selected Batch
+5. If user want to change its batch first we check that user are present in database (to find the phone number of user as unique key).
+6. If that user phone number exits in database, then
+     * check its current date is less than subscriptionEnd then return [Already enrolled for the current month]
+     * else, find the user id of that number and update only subscriptionStart, subscriptionEnd, age, selectedBatch.
+<hr>
+
+#### FOR MORE DETAILS AND ITS IMPLEMENTATION SEE THE FILE (Auth.js) IN SERVER FOLDER.
 
 # Getting Started with Create React App
 
