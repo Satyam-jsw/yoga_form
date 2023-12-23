@@ -9,7 +9,7 @@
 
 
 
-## Hello, I have created project using the MERN STACK PROJECT (YOGA FORM).
+## Hello, I have created project using the MERN STACK (YOGA FORM).
 
 - This Project includes following Functionality:-
 1. Create frontend of the admission form using HTML, CSS and REACTJS.
@@ -21,10 +21,10 @@
 3. Basic age, gender and phone number filled by user are valid in format.
 4. There are a total of 4 batches a day namely 6-7AM, 7-8AM, 8-9AM and 5-6PM. The participants can choose any batch in a month and can move to any other batch next
 month (all these things are stored in database only updated when user change it's batches).
-5. Here, show a "ThankYou Page"  message when the user is registered (I can also integrate a Payment Gateway Page when user enrolled).
+5. Here, show a "ThankYou Page"  message when the user registered (I can also integrate a Payment Gateway Page when user enrolled).
 
 ## Approach
-1. When user enrolled, to fill all the fields (like name, age, gender, phone, fee, Batchs), if not any field by user ,when user hit the button it's show a pop to fill all the boxes. and also check all validation of fee (Only 500rs), age (age limit of 18-65), phone(consist 10-digit).
+1. When user enrolled, to fill all the fields (like name, age, gender, phone, fee, Batchs), if not any field by user ,when user hit the button it's show a pop to fill all the boxes. and also check all validation of fee (Only 500rs), age (age limit of 18-65), phone Number(consist 10-digit).
 2. if user enrolled then all records of user are stored in database(Mongodb).
 3. Here, i have maked a phone number as unique key.
 4. At time of storing data we stored the subscriptionStart and subscriptionEnd date also and it's selected Batch
@@ -35,6 +35,10 @@ month (all these things are stored in database only updated when user change it'
 <hr>
 
 #### FOR MORE DETAILS AND ITS IMPLEMENTATION SEE THE FILE (Auth.js) IN SERVER FOLDER.
+
+## To Do!
+1. Make More attractive UI.
+2. Add More functionality/Features like integrate with payment methods(to be working transaction).
 
 # Getting Started with Create React App
 
